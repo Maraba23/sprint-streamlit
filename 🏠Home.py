@@ -62,9 +62,9 @@ st.markdown(
 
     Após isso, basta usar o botão "Prever Churn" para que o modelo faça a predição.
 
-    O arquivo csv pode ter quantos usuarios forem necessarios, mas deve conter as mesmas colunas do exemplo abaixo
+    O arquivo csv pode ter quantos usuarios forem necessarios, mas deve conter as mesmas colunas do exemplo abaixo.
 
-    A predição retorna o id do usuário a ser previsto e a predição em si. Os resultados podem ser: Continua, Sai da assinatura ou Incerto
+    A predição retorna o id do usuário a ser previsto e a predição em si. Os resultados podem ser: Continua, Sai da assinatura ou Incerto.
 
     exemplo de arquivo csv:
     """
@@ -76,9 +76,9 @@ st.dataframe(df)
 
 st.warning(
     """
-    Todas as colunas do arquivo devem estar presentes nele, mesmo que não sejam utilizadas
+    Todas as colunas do arquivo devem estar presentes nele, mesmo que não sejam utilizadas.
 
-    Sobre a coluna target ("Status"), Ela deve estar presente no dataset, mesmo que esteja totalmente vazia, isso é necessário para o modelo funcionar corretamente
+    Sobre a coluna target ("Status"), Ela deve estar presente no dataset, mesmo que esteja totalmente vazia, isso é necessário para o modelo funcionar corretamente.
     """
 )
 
@@ -86,27 +86,27 @@ st.markdown(
     """
     ### Página de registro
 
-    Na página de registro você pode criar uma conta para acessar as outras páginas do projeto
+    Na página de registro você pode criar uma conta para acessar as outras páginas do projeto.
 
-    Para criar a conta é necessario um `token` fornecido pelo adiministrador do sistema
+    Para criar a conta é necessario um `token` fornecido pelo adiministrador do sistema.
 
-    Sem o token, você não pode criar uma conta
+    Sem o token, você não pode criar uma conta.
 
     ### Página de Admin
 
-    Na página de admin você pode criar tokens para que outras pessoas possam criar contas
+    Na página de admin você pode criar tokens para que outras pessoas possam criar contas.
 
-    Aqui você pode criar e deletar tokens
+    Aqui você pode criar e deletar tokens.
 
-    - Apenas o administrador do sistema pode acessar essa página
+    - Apenas o administrador do sistema pode acessar essa página.
 
     ### Página de Logs
 
-    Na página de logs você pode ver todos os logs de ações realizadas no sistema
+    Na página de logs você pode ver todos os logs de ações realizadas no sistema.
 
-    Os logs são: Upload de arquivos para gráficos, Upload de arquivos para predição, Login, Criação de token, Deleção de token
+    Os logs são: Upload de arquivos para gráficos, Upload de arquivos para predição, Login, Criação de token, Deleção de token.
 
-    - Apenas o administrador do sistema pode acessar essa página
+    - Apenas o administrador do sistema pode acessar essa página.
     """
 )
 
